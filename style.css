@@ -29,6 +29,10 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "Asset", serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 li a:hover:not(.active) {
@@ -52,16 +56,16 @@ h1 {
   
 }
 
-.image img{
-  position:relative;
-  width:22%;
-}
-
-.rightdog {
-  display:block;
-  width:100%;
+.homeimage {
+  display:flex;
   justify-content: center;
   align-items: center;
+}
+
+.homeimage img{
+  width:25%;
+  border-color: #000000;
+  border-style: groove;
 }
 
 .image__overlay {
@@ -102,4 +106,20 @@ color: rgb(0, 0, 0);
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
+}
+
+p {
+font-family: "Asset", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(236, 236, 236);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline-start: 100px;
+  margin-inline-end: 100px;
+  border-color: #000000;
+  border-style:double;
+  border-width: 10px;
+  letter-spacing: 15px;
 }
